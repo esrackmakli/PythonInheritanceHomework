@@ -4,18 +4,17 @@ A class named WebPush has been defined. It has attributes named platform, optin,
 Classes named TriggerPush, BulkPush, SegmentPush, PriceAlertPush, InstockPush have been defined. The WebPush class has a function called send_push, and when this function is called, "Push sent!" is displayed. These classes inherit from the WebPush class. 
 
 
+main class               inherit class                 methods                       variations                              type
 
-# main class               inherit class                 methods                       variations                              type
+web push                 triggerpush                                                 trigger_page                            string
 
-# web push                 triggerpush                                                 trigger_page                            string
+web push                 bulkpush                                                    send_date                               integer
 
-# web push                 bulkpush                                                    send_date                               integer
+web push                 segmentpush                                                 segment_name                            string
 
-# web push                 segmentpush                                                 segment_name                            string
+web push                 pricealertpush             discountPrice()                  price_info, discount_rate               integer, float
 
-# web push                 pricealertpush             discountPrice()                  price_info, discount_rate               integer, float
-
-# web push                 instockpush                 stockUpdate()                   stock_info                              boolean
+web push                 instockpush                 stockUpdate()                   stock_info                              boolean
 
 
 
